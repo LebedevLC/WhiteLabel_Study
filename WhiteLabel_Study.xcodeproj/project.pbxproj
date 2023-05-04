@@ -11,6 +11,7 @@
 		46A9C4FC2A03AE7400165A89 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A9C4FB2A03AE7400165A89 /* AppViewController.swift */; };
 		46A9C5012A03AE7500165A89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46A9C5002A03AE7500165A89 /* Assets.xcassets */; };
 		46A9C5042A03AE7500165A89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A9C5022A03AE7500165A89 /* LaunchScreen.storyboard */; };
+		46A9C51A2A03BED100165A89 /* SeerviceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A9C5192A03BED100165A89 /* SeerviceLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		46A9C5002A03AE7500165A89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46A9C5032A03AE7500165A89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46A9C5052A03AE7500165A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46A9C5192A03BED100165A89 /* SeerviceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeerviceLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		46A9C4F62A03AE7400165A89 /* WhiteLabel_Study */ = {
 			isa = PBXGroup;
 			children = (
+				46A9C5182A03BEC600165A89 /* Services */,
 				46A9C5102A03B0B500165A89 /* Application */,
 				46A9C50E2A03AF9600165A89 /* Presentation */,
 				46A9C50B2A03AF4300165A89 /* Sources */,
@@ -107,6 +110,14 @@
 				46A9C4F72A03AE7400165A89 /* AppDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		46A9C5182A03BEC600165A89 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				46A9C5192A03BED100165A89 /* SeerviceLayer.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46A9C4FC2A03AE7400165A89 /* AppViewController.swift in Sources */,
+				46A9C51A2A03BED100165A89 /* SeerviceLayer.swift in Sources */,
 				46A9C4F82A03AE7400165A89 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
